@@ -15,4 +15,7 @@ Run:
 - PedoDataBase
 - Lets you show the PedoDataBase and look into Pedo's.
 
+- DirCrypt
+- With this you can encrypt and decrypt your Pedo records with a password.
+
 # More coming soon...
