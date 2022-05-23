@@ -10,6 +10,9 @@ Run:
 
 # Features
 - Writer
-Lets you write all the information you know about the Pedo.
+- Lets you write all the information you know about the Pedo.
+
+- PedoDataBase
+- Lets you show the PedoDataBase and look into Pedo's.
 
 # More coming soon...
