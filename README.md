@@ -1,3 +1,7 @@
+# Disclaimer
+!Disclaimer! This tool is used to save information about Pedo's.
+If you use this tool for anything else I will not be responsible.
+
 # PedoInfo's
 Tool to find and save information from Pedo's.
 
