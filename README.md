@@ -11,13 +11,13 @@ Run:
 # Features
 ============================================================================
 - Writer
-^- Lets you write all the information you know about the Pedo.
+ - Lets you write all the information you know about the Pedo.
 ============================================================================
 - PedoDataBase
-^- Lets you show the PedoDataBase and look into Pedo's.
+ - Lets you show the PedoDataBase and look into Pedo's.
 ============================================================================
 - DirCrypt
-^- With this you can encrypt and decrypt your Pedo records with a password.
+ - With this you can encrypt and decrypt your Pedo records with a password.
 ============================================================================
 
 # More coming soon...
