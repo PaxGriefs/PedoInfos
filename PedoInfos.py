@@ -979,7 +979,7 @@ elif ans=="4":
     directory = "PedoDataBase"
     files_in_directory = os.listdir(directory)
     filtered_files = [file for file in files_in_directory if file.endswith(".txt")]
-    filtered_files2 = [file for file in files_in_directory if file.endswith(".aes")]
+    filtered_files2 = [file for file in files_in_directory if file.endswith(".PedoInfosCrypt")]
 
     print(Fore.LIGHTRED_EX + """
 █▀▄ █ █▀█ █▀▀ █▀█ █▄█ █▀█ ▀█▀
@@ -997,7 +997,7 @@ elif ans=="4":
         os.system('cls')
         print(Fore.RED + "Encrypting...")
         for files in glob.glob(dir_path, recursive=True):
-            pyAesCrypt.encryptFile(files, files + ".aes", Pass, bufferSize)
+            pyAesCrypt.encryptFile(files, files + ".PedoInfosCrypt", Pass, bufferSize)
         time.sleep(1)
         for file in filtered_files:
             path_to_file = os.path.join(directory, file)
@@ -1015,7 +1015,7 @@ elif ans=="4":
         os.system('cls')
         print(Fore.RED + "Decrypting...")
         for friles in glob.glob(dir_path, recursive=True):
-            pyAesCrypt.decryptFile(friles, friles.replace(".aes", ""), PassD, bufferSize)
+            pyAesCrypt.decryptFile(friles, friles.replace(".PedoInfosCrypt", ""), PassD, bufferSize)
         time.sleep(1)
         for file in filtered_files2:
             path_to_file = os.path.join(directory, file)
