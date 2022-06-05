@@ -8,7 +8,7 @@ Tool to find and save information from Pedo's.
 Install:
 ```git clone https://github.com/LetMeKillMyself/PedoInfos.git```
 
-```pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 Run:
 ```python PedoInfos.py```
